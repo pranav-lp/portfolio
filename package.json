@@ -1,0 +1,26 @@
+{
+  "name": "pranav-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:single": "vite build --mode single",
+    "test": "node tools/smoke.mjs",
+    "check": "vite build && node tools/smoke.mjs"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "lenis": "^1.1.20",
+    "three": "0.128.0"
+  },
+  "devDependencies": {
+    "vite": "^6.4.5",
+    "vite-plugin-singlefile": "^2.0.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
